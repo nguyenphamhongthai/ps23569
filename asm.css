@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+header{
+    background: url(./anh/chibi.png);
+    background-size: 100% 100%;
+    padding-bottom: 25%;
+}
+nav{
+    height: 40px;
+    padding: 10px;
+    border: 2px solid #666666;
+    background-color: #009ACD;
+    box-shadow: 3px 2px 
+    #666666;
+    
+}
+.abc > a{
+    font-variant: small-caps;
+    color: white;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    width: 100px;
+    
+    
+
+}
+.abcd {
+    font-variant: small-caps;
+    color: white;
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+}
+.dangnhap{
+    border: 2px solid
+    #666666;
+    background-color: #009ACD;
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    Border-bottom-left-radius: 30px;
+    box-shadow: 3px 2px 
+    #666666;
+}
+.dangnhap ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 40px;
+}
+.dangnhap ul li{
+    display: inline;
+    margin: 8px;
+    
+}
+.dangnhap ul li a{
+    color: white;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+.coo{
+    position: absolute;
+    bottom: 270px;
+    left: 20px;
+}
+
+.from-button{
+    background-color: white;
+    color: orangered;
+    box-shadow: 0 0 20px blue;
+    padding: 8px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+.from-button:hover{
+    color: blue;
+    box-shadow: inset 0 0 20px blue;
+}
+.col-25{
+    width: 25%;
+    height: 250px;
+    float: left;
+}
+.prod>.image{
+    text-align: center;
+    max-width: 98%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.prod>.name{
+    font-variant: small-caps;
+    color: orangered;
+}
+.prod{
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin: 5px;
+    padding: 3px;
+    text-align: center; 
+    box-shadow: 0 0 20px blue;
+    border-radius: 20px;
+}
+.cuoi{
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    float: left;
+}
+.dangky{
+    background-color: white;
+    color: orangered;
+    box-shadow: 0 0 20px blue;
+    padding: 8px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+.theloai{
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+    float: left;
+}
